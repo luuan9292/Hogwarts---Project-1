@@ -343,14 +343,14 @@ nav ul li a img:hover {
 }
 
 .ravenclaw h1 {
-    color: #000A90;
+    color: dodgerblue;
     background-color: #946B2D;
     text-align: center;
     font-size: 4em;
 }
 
 .ravenclaw .btn {
-    color: #000A90;
+    color: dodgerblue;
     border-color: #946B2D;
     background-color: #946B2D;
 }

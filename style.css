@@ -182,7 +182,7 @@ nav ul {
 nav {
     position: fixed;
     left: 0;
-    top: -27%;
+    top: -9.5em;
     z-index: 100;
 }
 
@@ -190,7 +190,7 @@ nav ul li a img {
     transition: transform 1s;
 }
 
-nav ul li a img:hover {
+nav ul li:hover a img {
     transform: translate(0px,245px);
 }
 

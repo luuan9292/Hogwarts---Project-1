@@ -1,0 +1,330 @@
+/*Thiet bi duoi 1200px*/
+
+@media screen and (max-width: 1200px) {
+	.huff img{
+		padding: 0.3em;
+	}
+
+	.hogwarts-info img {
+	    left: 6em;
+	    width: 60%;
+}
+
+	.slogan h4 {
+	    font-size: 1.2em;
+	    margin-left: .9em;
+}
+
+	.extra1:before {
+	    top: -20%;
+	    left: 0px;
+}
+
+	.extra1:after {
+	    bottom: -60%;
+	    right: 0;
+
+}
+
+	.carousel-inner img {
+	    width: 80%;
+	    height: 80%;
+	    margin-left: 10%;
+  }
+}
+
+/*Thiet bi duoi 992px*/
+
+@media screen and (max-width: 992px) {
+	.hogwarts-info img {
+		top: 4em;
+	    left: 4em;
+	    width: 70%;
+}
+
+	.subject {
+		margin-bottom: 2%;
+	}
+
+	.carousel-inner img {
+	    width: 80%;
+	    height: 80%;
+	    margin-left: 10%;
+  }
+
+  	.extra1:before {
+	    top: -17%;
+	    left: 0px;
+}
+
+	.extra1:after {
+	    bottom: -45%;
+	    right: 0;
+
+}
+
+	.quote h1{
+	    font-size: 2.6rem;
+	    padding: 2rem;
+}
+
+	.quote h4 {
+	    font-size: 1.3rem;
+	    font-weight: 400;
+	    line-height: .9em;
+	    padding-top: 5px;
+}
+
+/*change position when width 992*/
+.slytherin-house,
+.ravenclaw-house {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* optional */
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+  }
+
+  .first_div {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+
+  .second_div {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+  }
+
+}
+
+/*Thiet bi duoi 768px*/
+
+@media screen and (max-width: 768px) {
+	header {
+	    background-size: 150% 100%;
+	    min-height: 90vh;
+}
+
+	h2{
+		font-size: 3em;
+	}
+
+	.hogwarts-info img {
+		top: 4em;
+	    left: 1em;
+	    width: 90%;
+}
+
+	.hogwarts-name h1 {
+	    font-size: 3em;
+}
+
+	.hogwarts-name h1:first-child {
+   		 font-size: 6em;
+}
+
+	.intro {
+    	font-size: 1.1em;
+}
+
+	.hogwarts-info {
+	   border: 1px solid #28a745;
+	   padding: .5em 1em;
+	   font-size: 1em;
+	   font-weight: 500;
+	}
+
+	.hide-info p {
+    	font-size: 1em;
+}
+
+	.huff img{
+		padding: 1em;
+	}
+
+	.slytherin-house {
+		margin-top: 4.2em;
+	}
+
+	.hufflepuff-house {
+		margin-top: 4.2em;
+	}
+
+	.ravenclaw-house {
+		margin-top: 4.2em;
+	}
+
+	.break-content {
+		margin-top: 5%;
+}
+
+	.carousel-inner img {
+	    width: 100%;
+	    margin-left: 0;
+  }
+
+  .extra1:before {
+	    top: -13%;
+	    left: 0px;
+}
+
+	.extra1:after {
+	    bottom: -35%;
+	    right: 0;
+
+}
+
+	.houses-logo {
+		margin-top: 10%;
+	}
+
+	.break-content {
+	    background-size: 150% 100%;;
+	    min-height: 60vh;
+}
+
+	.break-content-2 {
+		background-size: 150% 100%;;
+   		min-height: 60vh;
+}
+
+	footer {
+		background-size: 150% 100%;;
+   		min-height: 80vh;
+}
+}
+
+/*Thiet bi duoi 480px*/
+
+@media screen and (max-width: 576px) {
+
+	.hogwarts-name h1 {
+	    font-size: 2em;
+}
+
+	.hogwarts-name h1:first-child {
+   		font-size: 5em;
+}
+
+	.intro {
+    	font-size: 1em;
+}
+
+	h2{
+		font-size: 2.5em;
+	}
+
+	.hogwarts-info img {
+		top: 4em;
+	    left: 1em;
+	    width: 90%;
+}
+
+	.hogwarts-info {
+	   border: 1px solid #28a745;
+	   padding: .5em .9em;
+	   font-size: .8em;
+	   font-weight: 500;
+	}
+	.houses-logo {
+	    width: 300px;
+    	height: 300px;
+	    text-align: center;
+}
+
+	.huff img{
+		padding: 1em;
+	}
+
+	.slytherin-house {
+		margin-top: 4.2em;
+	}
+
+	.hufflepuff-house {
+		margin-top: 4.2em;
+	}
+
+	.ravenclaw-house {
+		margin-top: 4.2em;
+	}
+
+	.hide-info p {
+    	font-size: .9em;
+}
+	.hide-info {
+		margin-bottom: 5em;
+	}
+
+	.subject:hover{
+    	padding: 2%;
+   		font-size: 1.1em;
+}
+
+	.subject p{
+		font-size: .8em;
+	}
+
+	.extra1 {
+    font-size: 1.5rem;
+    line-height: 1em;
+    padding: 20px;
+}
+
+	.extra1:before {
+	    top: 10%;
+	    left: 0px;
+}
+
+	.extra1:after {
+	    bottom: -24%;
+	    right: 0;
+
+}
+
+	.quote h1{
+	    font-size: 2.2rem;
+	    padding: 2rem;
+}
+
+	.quote h4 {
+	    font-size: 1.3rem;
+	    font-weight: 400;
+	    line-height: .9em;
+	    padding-top: 5px;
+}
+
+	.slogan h4 {
+	    font-size: 1.2em;
+	    margin-left: 1em;
+}
+}
+
+@media screen and (max-width: 480px) {
+		.extra1:before {
+	    top: 8%;
+	    left: 0px;
+}
+
+	.extra1:after {
+	    bottom: -19%;
+	    right: 0;
+
+}
+}
